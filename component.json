@@ -1,0 +1,16 @@
+{
+  "name": "flesch-kincaid",
+  "version": "0.0.1",
+  "description": "Formula to detect the grade level of text according to Flesch-Kincaid Grade Level (1975)",
+  "license": "MIT",
+  "keywords": [
+    "flesch",
+    "kincaid",
+    "readability",
+    "formula"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "repository": "wooorm/flesch-kincaid"
+}
