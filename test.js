@@ -4,7 +4,7 @@
  * Module dependencies (fleschKincaid, assert).
  */
 
-var fleschKincaid = require('..'),
+var fleschKincaid = require('./'),
     assert = require('assert');
 
 /**

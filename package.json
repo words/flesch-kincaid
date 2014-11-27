@@ -22,13 +22,13 @@
     "url": "https://github.com/wooorm/flesch-kincaid.git"
   },
   "scripts": {
-    "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports spec/flesch-kincaid.spec.js",
-    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports spec/flesch-kincaid.spec.js",
+    "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",
+    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks -u exports test.js",
     "lint": "npm run lint-api && npm run lint-test && npm run lint-style",
     "lint-api": "node_modules/.bin/eslint index.js --env node --env browser --rule 'quotes: [2, single], no-cond-assign: false'",
-    "lint-test": "node_modules/.bin/eslint spec/flesch-kincaid.spec.js --env node --env mocha --rule 'quotes: [2, single], no-loop-func: false'",
-    "lint-style": "node_modules/.bin/jscs index.js spec/flesch-kincaid.spec.js --reporter=inline",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- spec/flesch-kincaid.spec.js",
+    "lint-test": "node_modules/.bin/eslint test.js --env node --env mocha --rule 'quotes: [2, single], no-loop-func: false'",
+    "lint-style": "node_modules/.bin/jscs index.js test.js --reporter=inline",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -- test.js",
     "make": "npm run lint && npm run coverage"
   }
 }
