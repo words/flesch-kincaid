@@ -60,4 +60,4 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
