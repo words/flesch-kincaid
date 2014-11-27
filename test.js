@@ -1,14 +1,17 @@
 'use strict';
 
 /**
- * Module dependencies (fleschKincaid, assert).
+ * Dependencies.
  */
 
-var fleschKincaid = require('./'),
-    assert = require('assert');
+var fleschKincaid,
+    assert;
+
+fleschKincaid = require('./');
+assert = require('assert');
 
 /**
- * Assert, but up to 6 digits.
+ * Utilities.
  */
 
 function roundAssert(a, b) {
@@ -16,7 +19,7 @@ function roundAssert(a, b) {
 }
 
 /**
- * Unit tests.
+ * Tests.
  */
 
 describe('fleschKincaid()', function () {
