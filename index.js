@@ -1,12 +1,16 @@
 'use strict';
 
 /**
- * The constants as defined by the revised Flesch-Kincaid Grade Level Formula.
+ * Constants.
  */
 
-var SENTENCE_WEIGHT = 0.39,
-    WORD_WEIGHT = 11.8,
-    ADJUSTMENT = 15.59;
+var SENTENCE_WEIGHT,
+    WORD_WEIGHT,
+    ADJUSTMENT;
+
+SENTENCE_WEIGHT = 0.39;
+WORD_WEIGHT = 11.8;
+ADJUSTMENT = 15.59;
 
 /**
  * Get the grade level of a given value according to the Flesch-Kincaid
