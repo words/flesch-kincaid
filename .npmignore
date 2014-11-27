@@ -1,2 +1,11 @@
-coverage
-.travis.yml
+.*
+*.log
+build/
+bower_components/
+components/
+coverage/
+node_modules/
+test.js
+bower.json
+component.json
+History.md
