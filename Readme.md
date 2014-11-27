@@ -1,4 +1,4 @@
-# flesch-kincaid [![Build Status](https://travis-ci.org/wooorm/flesch-kincaid.svg?branch=master)](https://travis-ci.org/wooorm/flesch-kincaid) [![Coverage Status](https://img.shields.io/coveralls/wooorm/flesch-kincaid.svg)](https://coveralls.io/r/wooorm/flesch-kincaid?branch=master)
+# flesch-kincaid [![Build Status](https://img.shields.io/travis/wooorm/flesch-kincaid.svg?style=flat)](https://travis-ci.org/wooorm/flesch-kincaid) [![Coverage Status](https://img.shields.io/coveralls/wooorm/flesch-kincaid.svg?style=flat)](https://coveralls.io/r/wooorm/flesch-kincaid?branch=master)
 
 Formula to detect the grade level of text according to [Flesch–Kincaid Grade Level](http://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch.E2.80.93Kincaid_Grade_Level).
 
