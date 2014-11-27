@@ -9,17 +9,16 @@
     "readability",
     "formula"
   ],
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wooorm/flesch-kincaid.git"
+  },
+  "author": "Titus Wormer <tituswormer@gmail.com>",
   "devDependencies": {
     "eslint": "^0.9.0",
     "istanbul": "^0.3.0",
     "jscs": "^1.0.0",
     "mocha": "^2.0.0"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/flesch-kincaid.git"
   },
   "scripts": {
     "test": "node_modules/.bin/_mocha --reporter spec --check-leaks -u exports test.js",

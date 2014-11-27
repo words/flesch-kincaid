@@ -9,8 +9,8 @@
     "readability",
     "formula"
   ],
+  "repository": "wooorm/flesch-kincaid",
   "scripts": [
     "index.js"
-  ],
-  "repository": "wooorm/flesch-kincaid"
+  ]
 }
