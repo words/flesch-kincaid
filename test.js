@@ -45,9 +45,9 @@ describe('fleschKincaid()', function () {
          */
 
         roundAssert(fleschKincaid({
-            'sentence' : 1,
-            'word' : 13,
-            'syllable' : 26
+            'sentence': 1,
+            'word': 13,
+            'syllable': 26
         }), 13.08);
     });
 });
