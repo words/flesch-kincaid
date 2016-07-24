@@ -1,13 +1,26 @@
 language: node_js
-script: npm run-script test-travis
+sudo: false
 node_js:
-- '0.10'
 - '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+- '0.12'
+- '4.0'
+- '5.0'
+- '6.0'
+after_success: bash <(curl -s https://codecov.io/bash)
 deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: OlUOSaA7gIEJt5WxscpYhm/ApjaONl7SyB7vhNkBENmaBwYLegpns+VdZ6VIXl47KJOO9TBQz0VQi1pNDw8o+S5QdWTsqHoBctZ2hSOAC6xQrPOGt/ZeSGVTUId0dNqKrAv/WWKo7QRYVNh3aqMLkZnRhnKdNKemhspZvF1RzaM=
-  on:
-    repo: wooorm/flesch-kincaid
+  - provider: npm
+    email: tituswormer@gmail.com
+    api_key:
+      secure: Qm6QZR+3v+DBb2epJbbHHJ2GnbNes1M3y6uQJ25cex20nIen1D60v3YtpF0OOlOyfnLt2DEnDswfVWj0luEea7wxl0XLTOInnP6b699XnkNdYPJL68h+D0v9ogovv5iN5jAiWh0PtoqKp3zNzEub54NG9FPtkuf8pm4tTFQ7trI=
+    on:
+      tags: true
+      node: '5.0'
+  - provider: releases
+    api_key:
+      secure: fncVPxVcT7BGK3IJex0DaLU5PbND8dBVKzXG46CpPnQIG1aAJ3/M64CHWSzXf/gS+DtE0cd7TQSdR96+pPR7GkptwJD7jjEKTluXUTJ6Q5Q5KmN+WLrEMxA5F0ziNFlkupNoRHkmGJKFsJqNRn6GONxA/0c9rFQlcxH9JkqlqL8=
+    file:
+      - "flesch-kincaid.js"
+      - "flesch-kincaid.min.js"
+    on:
+      tags: true
+      node: '6.0'
