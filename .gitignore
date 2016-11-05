@@ -2,7 +2,6 @@
 *.log
 .nyc_output/
 coverage/
-data/
 node_modules/
 flesch-kincaid.js
 flesch-kincaid.min.js
