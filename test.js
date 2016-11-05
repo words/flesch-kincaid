@@ -1,11 +1,3 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module flesch-kincaid
- * @fileoverview Test suite for `flesch-kincaid`.
- */
-
 'use strict';
 
 /* Dependencies. */

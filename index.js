@@ -1,12 +1,3 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module flesch-kincaid
- * @fileoverview Detect ease of reading according to the
- *   the Flesch-Kincaid Grade Level (1975).
- */
-
 'use strict';
 
 /* Expose. */
