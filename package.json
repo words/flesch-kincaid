@@ -23,14 +23,14 @@
     "browserify": "^14.0.0",
     "esmangle": "^1.0.1",
     "is-nan": "^1.2.1",
-    "nyc": "^9.0.1",
-    "remark-cli": "^2.0.0",
-    "remark-preset-wooorm": "^1.0.0",
+    "nyc": "^10.0.0",
+    "remark-cli": "^3.0.0",
+    "remark-preset-wooorm": "^2.0.0",
     "tape": "^4.0.0",
     "xo": "^0.17.0"
   },
   "scripts": {
-    "build-md": "remark . --quiet --frail",
+    "build-md": "remark . -qfo",
     "build-bundle": "browserify index.js --bare -s fleschKincaid > flesch-kincaid.js",
     "build-mangle": "esmangle flesch-kincaid.js > flesch-kincaid.min.js",
     "build": "npm run build-md && npm run build-bundle && npm run build-mangle",
@@ -46,7 +46,6 @@
     ]
   },
   "remarkConfig": {
-    "output": true,
-    "presets": "wooorm"
+    "plugins": ["preset-wooorm"]
   }
 }
