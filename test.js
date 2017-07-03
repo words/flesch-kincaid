@@ -1,11 +1,9 @@
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var nan = require('is-nan');
 var fleschKincaid = require('./');
 
-/* Formula. */
 test('fleschKincaid', function (t) {
   t.ok(nan(fleschKincaid()), 'NaN when an invalid value is given');
 
