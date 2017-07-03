@@ -9,25 +9,25 @@
     "readability",
     "formula"
   ],
-  "files": [
-    "index.js"
-  ],
   "repository": "https://github.com/wooorm/flesch-kincaid",
   "bugs": "https://github.com/wooorm/flesch-kincaid/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
   ],
+  "files": [
+    "index.js"
+  ],
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.0.0",
     "esmangle": "^1.0.1",
     "is-nan": "^1.2.1",
-    "nyc": "^10.0.0",
+    "nyc": "^11.0.0",
     "remark-cli": "^3.0.0",
-    "remark-preset-wooorm": "^2.0.0",
+    "remark-preset-wooorm": "^3.0.0",
     "tape": "^4.0.0",
-    "xo": "^0.17.0"
+    "xo": "^0.18.0"
   },
   "scripts": {
     "build-md": "remark . -qfo",
@@ -41,11 +41,14 @@
   },
   "xo": {
     "space": true,
+    "esnext": false,
     "ignores": [
       "flesch-kincaid.js"
     ]
   },
   "remarkConfig": {
-    "plugins": ["preset-wooorm"]
+    "plugins": [
+      "preset-wooorm"
+    ]
   }
 }

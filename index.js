@@ -1,7 +1,8 @@
 'use strict';
 
 /* Expose. */
-module.exports = exports = fleschKincaid;
+exports = fleschKincaid;
+module.exports = exports;
 
 /* The constants. */
 var SENTENCE_WEIGHT = 0.39;
