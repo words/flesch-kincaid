@@ -7,7 +7,7 @@ See [syllable][] for detecting syllables.
 
 ## Installation
 
-[npm][npm-install]:
+[npm][]:
 
 ```bash
 npm install flesch-kincaid
@@ -42,19 +42,19 @@ Values can theoretically start at -3.40 and end at Infinity.
 ## Related
 
 *   [`automated-readability`](https://github.com/wooorm/automated-readability)
-    — Uses character count instead of error-prone syllable parser;
+    — Uses character count instead of error-prone syllable parser
 *   [`coleman-liau`](https://github.com/wooorm/coleman-liau)
-    — Uses letter count instead of an error-prone syllable parser;
-*   [dale-chall-formula](https://github.com/wooorm/dale-chall-formula)
-    — Uses a dictionary; suited for higher reading levels;
+    — Uses letter count instead of an error-prone syllable parser
+*   [`dale-chall-formula`](https://github.com/wooorm/dale-chall-formula)
+    — Uses a dictionary; suited for higher reading levels
 *   [`flesch`](https://github.com/wooorm/flesch)
-    — Uses syllable count;
+    — Uses syllable count
 *   [`gunning-fog`](https://github.com/wooorm/gunning-fog)
-    — Uses syllable count; needs POS-tagging and NER;
+    — Uses syllable count, needs POS-tagging and NER
 *   [`smog-formula`](https://github.com/wooorm/smog-formula)
-    — Like `gunning-fog-index`; without needing advanced NLP;
+    — Like `gunning-fog-index`, without needing advanced NLP
 *   [`spache-formula`](https://github.com/wooorm/spache-formula)
-    — Uses a dictionary; suited for lower reading levels.
+    — Uses a dictionary, suited for lower reading levels
 
 ## License
 
@@ -70,7 +70,7 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 [codecov]: https://codecov.io/github/wooorm/flesch-kincaid
 
-[npm-install]: https://docs.npmjs.com/cli/install
+[npm]: https://docs.npmjs.com/cli/install
 
 [license]: LICENSE
 
