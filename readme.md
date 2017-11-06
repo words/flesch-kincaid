@@ -62,13 +62,13 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/flesch-kincaid.svg
+[travis-badge]: https://img.shields.io/travis/words/flesch-kincaid.svg
 
-[travis]: https://travis-ci.org/wooorm/flesch-kincaid
+[travis]: https://travis-ci.org/words/flesch-kincaid
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/flesch-kincaid.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/words/flesch-kincaid.svg
 
-[codecov]: https://codecov.io/github/wooorm/flesch-kincaid
+[codecov]: https://codecov.io/github/words/flesch-kincaid
 
 [npm]: https://docs.npmjs.com/cli/install
 
@@ -78,4 +78,4 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 [formula]: http://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch.E2.80.93Kincaid_Grade_Level
 
-[syllable]: https://github.com/wooorm/syllable
+[syllable]: https://github.com/words/syllable

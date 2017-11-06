@@ -9,8 +9,8 @@
     "readability",
     "formula"
   ],
-  "repository": "https://github.com/wooorm/flesch-kincaid",
-  "bugs": "https://github.com/wooorm/flesch-kincaid/issues",
+  "repository": "words/flesch-kincaid",
+  "bugs": "https://github.com/words/flesch-kincaid/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
