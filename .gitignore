@@ -5,3 +5,4 @@ coverage/
 node_modules/
 flesch-kincaid.js
 flesch-kincaid.min.js
+yarn.lock
