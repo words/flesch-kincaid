@@ -1,18 +1,19 @@
-'use strict';
+'use strict'
 
-exports = fleschKincaid;
-module.exports = exports;
+module.exports = fleschKincaid
 
-var SENTENCE_WEIGHT = 0.39;
-var WORD_WEIGHT = 11.8;
-var ADJUSTMENT = 15.59;
+var sentenceWeight = 0.39
+var wordWeight = 11.8
+var adjustment = 15.59
 
 function fleschKincaid(counts) {
   if (!counts || !counts.sentence || !counts.word || !counts.syllable) {
-    return NaN;
+    return NaN
   }
 
-  return (SENTENCE_WEIGHT * (counts.word / counts.sentence)) +
-    (WORD_WEIGHT * (counts.syllable / counts.word)) -
-    ADJUSTMENT;
+  return (
+    sentenceWeight * (counts.word / counts.sentence) +
+    wordWeight * (counts.syllable / counts.word) -
+    adjustment
+  )
 }

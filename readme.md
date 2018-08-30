@@ -16,17 +16,12 @@ npm install flesch-kincaid
 ## Usage
 
 ```js
-var fleschKincaid = require('flesch-kincaid');
+var fleschKincaid = require('flesch-kincaid')
 
-/* For “The Australian platypus is seemingly a hybrid of
- * a mammal and reptilian creature.” (1 sentence, 13 words,
- * 26 syllables). */
-fleschKincaid({
-  sentence: 1,
-  word: 13,
-  syllable: 26
-});
-// 13.08
+// For “The Australian platypus is seemingly a hybrid of a mammal and reptilian
+// creature.” (1 sentence, 13 words, 26 syllables).
+fleschKincaid({sentence: 1, word: 13, syllable: 26})
+// => 13.08
 ```
 
 ## API
