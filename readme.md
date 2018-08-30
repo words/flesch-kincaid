@@ -72,7 +72,7 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 [npm]: https://docs.npmjs.com/cli/install
 
-[license]: LICENSE
+[license]: license
 
 [author]: http://wooorm.com
 
