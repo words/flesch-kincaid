@@ -69,8 +69,8 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[formula]: http://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch.E2.80.93Kincaid_Grade_Level
+[formula]: https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests#Flesch–Kincaid_grade_level
 
 [syllable]: https://github.com/words/syllable
