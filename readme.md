@@ -5,8 +5,8 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the grade level of text according to the
-[Flesch–Kincaid Grade Level][formula].
+Formula to detect the grade level of text according to the [Flesch–Kincaid Grade
+Level][formula].
 
 See [syllable][] for detecting syllables.
 
@@ -33,9 +33,9 @@ fleschKincaid({sentence: 1, word: 13, syllable: 26})
 
 ### `fleschKincaid(counts)`
 
-Given an object containing the number of words (`word`), the number of
-sentences (`sentence`), and the number of syllables  (`syllable`) in a
-document, returns the U.S. grade level associated with the document.
+Given an object containing the number of words (`word`), the number of sentences
+(`sentence`), and the number of syllables  (`syllable`) in a document, returns
+the U.S. grade level associated with the document.
 
 Values can theoretically start at -3.40 and end at Infinity.
 
