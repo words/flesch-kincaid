@@ -32,7 +32,7 @@
   },
   "scripts": {
     "format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
-    "build-bundle": "browserify . -s fleschKincaid -o flesch-kincaid.min.js",
+    "build-bundle": "browserify . -s fleschKincaid -o flesch-kincaid.js",
     "build-mangle": "browserify . -s fleschKincaid -p tinyify -o flesch-kincaid.min.js",
     "build": "npm run build-bundle && npm run build-mangle",
     "test-api": "node test",
