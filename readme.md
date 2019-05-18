@@ -1,4 +1,9 @@
-# flesch-kincaid [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# flesch-kincaid
+
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 Formula to detect the grade level of text according to the
 [Flesch–Kincaid Grade Level][formula].
@@ -57,13 +62,21 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/flesch-kincaid.svg
+[build-badge]: https://img.shields.io/travis/words/flesch-kincaid.svg
 
-[travis]: https://travis-ci.org/words/flesch-kincaid
+[build]: https://travis-ci.org/words/flesch-kincaid
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/words/flesch-kincaid.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/words/flesch-kincaid.svg
 
-[codecov]: https://codecov.io/github/words/flesch-kincaid
+[coverage]: https://codecov.io/github/words/flesch-kincaid
+
+[downloads-badge]: https://img.shields.io/npm/dm/flesch-kincaid.svg
+
+[downloads]: https://www.npmjs.com/package/flesch-kincaid
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/flesch-kincaid.svg
+
+[size]: https://bundlephobia.com/result?p=flesch-kincaid
 
 [npm]: https://docs.npmjs.com/cli/install
 
