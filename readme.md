@@ -5,20 +5,20 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the grade level of text according to the [Flesch–Kincaid Grade
-Level][formula].
+Formula to detect the grade level of text according to the [Flesch–Kincaid grade
+level][formula].
 
 See [syllable][] for detecting syllables.
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install flesch-kincaid
 ```
 
-## Usage
+## Use
 
 ```js
 var fleschKincaid = require('flesch-kincaid')
