@@ -12,6 +12,9 @@ See [syllable][] for detecting syllables.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -21,7 +24,7 @@ npm install flesch-kincaid
 ## Use
 
 ```js
-var fleschKincaid = require('flesch-kincaid')
+import {fleschKincaid} from 'flesch-kincaid'
 
 // For “The Australian platypus is seemingly a hybrid of a mammal and reptilian
 // creature.” (1 sentence, 13 words, 26 syllables).
@@ -31,13 +34,16 @@ fleschKincaid({sentence: 1, word: 13, syllable: 26})
 
 ## API
 
+This package exports the following identifiers: `fleschKincaid`.
+There is no default export.
+
 ### `fleschKincaid(counts)`
 
 Given an object containing the number of words (`word`), the number of sentences
 (`sentence`), and the number of syllables  (`syllable`) in a document, returns
 the U.S. grade level associated with the document.
 
-Values can theoretically start at -3.40 and end at Infinity.
+Values can theoretically start at `-3.40` and end at `Infinity`.
 
 ## Related
 

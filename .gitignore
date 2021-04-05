@@ -1,8 +1,5 @@
 .DS_Store
 *.log
-.nyc_output/
 coverage/
 node_modules/
-flesch-kincaid.js
-flesch-kincaid.min.js
 yarn.lock
