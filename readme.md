@@ -62,9 +62,9 @@ Values can theoretically start at -3.40 and end at Infinity.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/words/flesch-kincaid.svg
+[build-badge]: https://github.com/words/flesch-kincaid/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/words/flesch-kincaid
+[build]: https://github.com/words/flesch-kincaid/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/words/flesch-kincaid.svg
 
