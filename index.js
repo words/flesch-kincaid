@@ -8,7 +8,7 @@ var adjustment = 15.59
 
 function fleschKincaid(counts) {
   if (!counts || !counts.sentence || !counts.word || !counts.syllable) {
-    return NaN
+    return Number.NaN
   }
 
   return (
