@@ -1,6 +1,6 @@
-var sentenceWeight = 0.39
-var wordWeight = 11.8
-var adjustment = 15.59
+const sentenceWeight = 0.39
+const wordWeight = 11.8
+const adjustment = 15.59
 
 /**
  * @typedef {Object.<string, number>} FleschKincaidCounts
