@@ -1,6 +1,6 @@
 {
   "name": "flesch-kincaid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Formula to detect the grade level of text according to Flesch-Kincaid Grade Level (1975)",
   "license": "MIT",
   "keywords": [
